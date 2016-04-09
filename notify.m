@@ -54,7 +54,8 @@ if nargin > 1
             sounds = {'Basso','Blow','Bottle','Frog','Funk','Glass','Hero',...
                       'Morse','Ping','Pop','Purr','Sosumi','Submarine','Tink'};
             if ~isempty(alert) && ~any(strcmpi(alert,sounds))
-                error('notify:InvalidSound','Sound must be a string.');
+                str = [sprintf('%s, ',sounds{1:end-1}) 'or ' sounds{end}];
+                error('notify:InvalidSound','Sound must be a string: %s.',str);
             end
             cmd = [cmd '" sound name "' rep(alert)];
         end
