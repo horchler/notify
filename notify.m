@@ -25,7 +25,7 @@ function status=notify(msg,titl,subtitl,alert)
 %   See: http://apple.stackexchange.com/q/57412/112204
 %        http://stackoverflow.com/q/15793534/2278029
 
-%   Andrew D. Horchler, adh9 @ case . edu, Created 5-23-14
+%   Andrew D. Horchler, horchler @ gmail . com, Created 5-23-14
 %   Revision: 1.0, 4-9-16
 
 
