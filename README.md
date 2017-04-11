@@ -1,8 +1,8 @@
 notify
 ========
-#####Display OS X notification message window from Matlab.#####
-######Version 1.0, 4-9-16######
-#####Download Repository: [ZIP Archive](https://github.com/horchler/notify/archive/master.zip)#####
+##### Display OS X notification message window from Matlab.
+###### Version 1.0, 4-9-16
+##### Download Repository: [ZIP Archive](https://github.com/horchler/notify/archive/master.zip)
 
 --------
 
